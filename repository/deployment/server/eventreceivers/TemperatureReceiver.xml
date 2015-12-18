@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventReceiver name="TemperatureReceiver" statistics="disable"
+    trace="disable" xmlns="http://wso2.org/carbon/eventreceiver">
+    <from eventAdapterType="http">
+        <property name="transports">all</property>
+    </from>
+    <mapping customMapping="disable" type="json"/>
+    <to streamName="TemperatureStream" version="1.0.0"/>
+</eventReceiver>

@@ -1,0 +1,12 @@
+{
+  "name": "NearbyDevicesStream",
+  "version": "1.0.0",
+  "nickName": "",
+  "description": "Pool of nearby devices",
+  "payloadData": [
+    {
+      "name": "value",
+      "type": "STRING"
+    }
+  ]
+}

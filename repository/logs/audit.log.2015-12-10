@@ -1,0 +1,25 @@
+[2015-12-10 10:41:17,666]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2015-12-10 10:41:17,657+0530] 
+[2015-12-10 11:40:47,389] ERROR {AUDIT_LOG}-  Illegal access attempt at [2015-12-10 11:40:47,0380] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2015-12-10 11:41:27,300] ERROR {AUDIT_LOG}-  Illegal access attempt at [2015-12-10 11:41:27,0291] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2015-12-10 11:41:43,133] ERROR {AUDIT_LOG}-  Illegal access attempt at [2015-12-10 11:41:43,0123] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2015-12-10 11:42:05,651] ERROR {AUDIT_LOG}-  Illegal access attempt at [2015-12-10 11:42:05,0642] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2015-12-10 11:48:40,864] ERROR {AUDIT_LOG}-  Illegal access attempt at [2015-12-10 11:48:40,0856] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2015-12-10 11:48:54,591] ERROR {AUDIT_LOG}-  Illegal access attempt at [2015-12-10 11:48:54,0583] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2015-12-10 11:49:02,581] ERROR {AUDIT_LOG}-  Illegal access attempt at [2015-12-10 11:49:02,0574] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2015-12-10 11:51:06,620] ERROR {AUDIT_LOG}-  Illegal access attempt at [2015-12-10 11:51:06,0611] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2015-12-10 11:51:16,014]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2015-12-10 11:51:16,007+0530] 
+[2015-12-10 13:30:00,026]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2015-12-10 13:30:00,018+0530] 
+[2015-12-10 15:18:21,571] ERROR {AUDIT_LOG}-  Illegal access attempt at [2015-12-10 15:18:21,0561] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2015-12-10 15:18:31,638] ERROR {AUDIT_LOG}-  Illegal access attempt at [2015-12-10 15:18:31,0632] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2015-12-10 15:18:54,333] ERROR {AUDIT_LOG}-  Illegal access attempt at [2015-12-10 15:18:54,0326] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2015-12-10 15:18:59,701] ERROR {AUDIT_LOG}-  Illegal access attempt at [2015-12-10 15:18:59,0694] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2015-12-10 15:19:14,541] ERROR {AUDIT_LOG}-  Illegal access attempt at [2015-12-10 15:19:14,0534] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2015-12-10 15:19:18,959]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2015-12-10 15:19:18,954+0530] 
+[2015-12-10 15:52:42,594]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2015-12-10 15:52:42,588+0530] 
+[2015-12-10 17:10:42,361] ERROR {AUDIT_LOG}-  Illegal access attempt at [2015-12-10 17:10:42,0354] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2015-12-10 17:11:05,225]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2015-12-10 17:11:05,219+0530] 
+[2015-12-10 18:21:35,529]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2015-12-10 18:21:35,514+0530] 
+[2015-12-10 22:08:29,170]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2015-12-10 22:08:29,162+0530] 
+[2015-12-10 22:19:33,075]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2015-12-10 22:19:33,069+0530] 
+[2015-12-10 23:35:27,594]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2015-12-10 23:35:27,583+0530] 
+[2015-12-10 23:55:22,044]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2015-12-10 23:55:22,037+0530] 

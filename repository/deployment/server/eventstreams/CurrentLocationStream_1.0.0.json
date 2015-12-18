@@ -1,0 +1,38 @@
+{
+  "name": "CurrentLocationStream",
+  "version": "1.0.0",
+  "nickName": "",
+  "description": "Location update from user",
+  "metaData": [
+    {
+      "name": "user_id",
+      "type": "STRING"
+    },
+    {
+      "name": "device_id",
+      "type": "STRING"
+    }
+  ],
+  "payloadData": [
+    {
+      "name": "timestamp",
+      "type": "LONG"
+    },
+    {
+      "name": "lat",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "lon",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "accuracy",
+      "type": "FLOAT"
+    },
+    {
+      "name": "source",
+      "type": "STRING"
+    }
+  ]
+}

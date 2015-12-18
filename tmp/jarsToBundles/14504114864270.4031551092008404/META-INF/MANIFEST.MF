@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: contracep_1.0_SNAPSHOT
+Export-Package: com.aslan.contracep.function
+Bundle-Name: contracep_1.0_SNAPSHOT
+Bundle-Version: 1.0.0
+Bundle-ClassPath: .,contracep-1.0-SNAPSHOT.jar
+Bundle-ManifestVersion: 2
+DynamicImport-Package: *
+

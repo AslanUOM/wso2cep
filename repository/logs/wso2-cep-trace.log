@@ -1,0 +1,1095 @@
+09:48:07,477 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu",
+            "device_id": "xt890",
+            "eventType": "friend",
+            "timestamp": 323232
+        },
+        "payloadData": {
+            "value": "gobi",
+            "accuracy": 6.6,
+            "source": "Contacts"
+        }
+    }
+}
+09:48:07,499 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, Event Stream : InputStream:1.0.0, after processing 
+Event{timestamp=1450412287499, data=[vishnu, xt890, friend, 323232, gobi, 6.6, Contacts], isExpired=false}
+09:48:07,500 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : InputStream:1.0.0 (InputStream), before processing 
+Event{timestamp=1450412287499, data=[vishnu, xt890, friend, 323232, gobi, 6.6, Contacts], isExpired=false}
+09:48:07,501 [-] [Siddhi-InputSplitPlan-executor-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), after processing 
+[Event{timestamp=1450412287499, data=[vishnu, gobi], isExpired=false}]
+09:48:07,504 [-] [Siddhi-InputSplitPlan-executor-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+[Event{timestamp=1450412287499, data=[vishnu, gobi], isExpired=false}]
+09:49:34,069 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu",
+            "device_id": "xt890",
+            "eventType": "shopping",
+            "timestamp": 323232
+        },
+        "payloadData": {
+            "value": "RAM,1,6.969316,79.870859",
+            "accuracy": 6.6,
+            "source": "Contacts"
+        }
+    }
+}
+09:49:34,070 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, Event Stream : InputStream:1.0.0, after processing 
+Event{timestamp=1450412374070, data=[vishnu, xt890, shopping, 323232, RAM,1,6.969316,79.870859, 6.6, Contacts], isExpired=false}
+09:49:34,070 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : InputStream:1.0.0 (InputStream), before processing 
+Event{timestamp=1450412374070, data=[vishnu, xt890, shopping, 323232, RAM,1,6.969316,79.870859, 6.6, Contacts], isExpired=false}
+09:49:34,071 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : ShoppingStream:1.0.0 (ShopItemStream), after processing 
+[Event{timestamp=1450412374070, data=[vishnu, RAM, 1, 6.969316, 79.870859, Contacts], isExpired=false}]
+09:49:34,071 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+[Event{timestamp=1450412374070, data=[vishnu, RAM, 1, 6.969316, 79.870859, Contacts], isExpired=false}]
+09:50:13,777 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "gobi",
+            "device_id": "m8",
+            "eventType": "location",
+            "timestamp": 323232
+        },
+        "payloadData": {
+            "value": "6.969316,79.870859",
+            "accuracy": 6.6,
+            "source": "GPS"
+        }
+    }
+}
+09:50:13,778 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, Event Stream : InputStream:1.0.0, after processing 
+Event{timestamp=1450412413778, data=[gobi, m8, location, 323232, 6.969316,79.870859, 6.6, GPS], isExpired=false}
+09:50:13,778 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : InputStream:1.0.0 (InputStream), before processing 
+Event{timestamp=1450412413778, data=[gobi, m8, location, 323232, 6.969316,79.870859, 6.6, GPS], isExpired=false}
+09:50:43,753 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu",
+            "device_id": "xt890",
+            "eventType": "shopping",
+            "timestamp": 323232
+        },
+        "payloadData": {
+            "value": "PC,1,6.969316,79.870859",
+            "accuracy": 6.6,
+            "source": "ToDo"
+        }
+    }
+}
+09:50:43,754 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, Event Stream : InputStream:1.0.0, after processing 
+Event{timestamp=1450412443754, data=[vishnu, xt890, shopping, 323232, PC,1,6.969316,79.870859, 6.6, ToDo], isExpired=false}
+09:50:43,754 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : InputStream:1.0.0 (InputStream), before processing 
+Event{timestamp=1450412443754, data=[vishnu, xt890, shopping, 323232, PC,1,6.969316,79.870859, 6.6, ToDo], isExpired=false}
+09:50:43,754 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : ShoppingStream:1.0.0 (ShopItemStream), after processing 
+[Event{timestamp=1450412443754, data=[vishnu, PC, 1, 6.969316, 79.870859, ToDo], isExpired=false}]
+09:50:43,754 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+[Event{timestamp=1450412443754, data=[vishnu, PC, 1, 6.969316, 79.870859, ToDo], isExpired=false}]
+09:50:59,356 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu"
+        },
+        "payloadData": {
+            "friend_id": "gobi"
+        }
+    }
+}
+09:50:59,356 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, Event Stream : FriendsStream:1.0.0, after processing 
+Event{timestamp=1450412459356, data=[vishnu, gobi], isExpired=false}
+09:50:59,356 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1450412459356, data=[vishnu, gobi], isExpired=false}
+09:51:15,988 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : ShopItemReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu"
+        },
+        "payloadData": {
+            "item": "RAM",
+            "qty": "1",
+            "lat": 6.969316,
+            "lon": 79.870859,
+            "geoJSONGeometryFence": "data1"
+        }
+    }
+}
+09:51:15,988 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : ShopItemReceiver, Event Stream : ShoppingStream:1.0.0, after processing 
+Event{timestamp=1450412475988, data=[vishnu, RAM, 1, 6.969316, 79.870859, data1], isExpired=false}
+09:51:15,989 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1450412475988, data=[vishnu, RAM, 1, 6.969316, 79.870859, data1], isExpired=false}
+09:51:18,633 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "gobi",
+            "device_id": "m8"
+        },
+        "payloadData": {
+            "timestamp": 645565,
+            "lat": 6.962295,
+            "lon": 79.864409,
+            "accuracy": 8.9,
+            "source": "GPS"
+        }
+    }
+}
+09:51:18,633 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, Event Stream : CurrentLocationStream:1.0.0, after processing 
+Event{timestamp=1450412478633, data=[gobi, m8, 645565, 6.962295, 79.864409, 8.9, GPS], isExpired=false}
+09:51:18,634 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1450412478633, data=[gobi, m8, 645565, 6.962295, 79.864409, 8.9, GPS], isExpired=false}
+09:51:24,540 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "gobi",
+            "device_id": "m8"
+        },
+        "payloadData": {
+            "timestamp": 645565,
+            "lat": 6.964140,
+            "lon": 79.866276,
+            "accuracy": 8.9,
+            "source": "GPS"
+        }
+    }
+}
+09:51:24,540 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, Event Stream : CurrentLocationStream:1.0.0, after processing 
+Event{timestamp=1450412484540, data=[gobi, m8, 645565, 6.96414, 79.866276, 8.9, GPS], isExpired=false}
+09:51:24,540 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1450412484540, data=[gobi, m8, 645565, 6.96414, 79.866276, 8.9, GPS], isExpired=false}
+09:51:24,541 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1450412484540, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}, Event{timestamp=1450412484540, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}]
+09:51:24,541 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450412484540, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}
+09:51:24,541 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+09:51:24,554 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450412484540, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}
+09:51:24,554 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+09:51:24,563 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1450412484540, data=[vishnu, PC, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}, Event{timestamp=1450412484540, data=[vishnu, PC, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}]
+09:51:24,563 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450412484540, data=[vishnu, PC, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+09:51:24,563 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:PC,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+09:51:24,572 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450412484540, data=[vishnu, PC, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+09:51:24,572 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:PC,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+09:51:24,580 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1450412484540, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, data1], isExpired=false}, Event{timestamp=1450412484540, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, data1], isExpired=false}]
+09:51:24,580 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450412484540, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, data1], isExpired=false}
+09:51:24,580 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:data1
+09:51:24,590 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450412484540, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, data1], isExpired=false}
+09:51:24,590 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:data1
+10:00:31,571 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu",
+            "device_id": "xt890",
+            "eventType": "friend",
+            "timestamp": 323232
+        },
+        "payloadData": {
+            "value": "gobi",
+            "accuracy": 6.6,
+            "source": "Contacts"
+        }
+    }
+}
+10:00:31,572 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, Event Stream : InputStream:1.0.0, after processing 
+Event{timestamp=1450413031572, data=[vishnu, xt890, friend, 323232, gobi, 6.6, Contacts], isExpired=false}
+10:00:31,572 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : InputStream:1.0.0 (InputStream), before processing 
+Event{timestamp=1450413031572, data=[vishnu, xt890, friend, 323232, gobi, 6.6, Contacts], isExpired=false}
+10:00:31,572 [-] [Siddhi-InputSplitPlan-executor-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), after processing 
+[Event{timestamp=1450413031572, data=[vishnu, gobi], isExpired=false}]
+10:00:31,572 [-] [Siddhi-InputSplitPlan-executor-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+[Event{timestamp=1450413031572, data=[vishnu, gobi], isExpired=false}]
+10:00:31,575 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1450413031572, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}, Event{timestamp=1450413031572, data=[vishnu, PC, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}, Event{timestamp=1450413031572, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, data1], isExpired=false}]
+10:00:31,575 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413031572, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}
+10:00:31,575 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+10:00:31,595 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413031572, data=[vishnu, PC, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+10:00:31,595 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:PC,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:00:31,605 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413031572, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, data1], isExpired=false}
+10:00:31,605 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:data1
+10:00:33,543 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "gobi",
+            "device_id": "m8",
+            "eventType": "location",
+            "timestamp": 323232
+        },
+        "payloadData": {
+            "value": "6.969316,79.870859",
+            "accuracy": 6.6,
+            "source": "GPS"
+        }
+    }
+}
+10:00:33,544 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, Event Stream : InputStream:1.0.0, after processing 
+Event{timestamp=1450413033544, data=[gobi, m8, location, 323232, 6.969316,79.870859, 6.6, GPS], isExpired=false}
+10:00:33,544 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : InputStream:1.0.0 (InputStream), before processing 
+Event{timestamp=1450413033544, data=[gobi, m8, location, 323232, 6.969316,79.870859, 6.6, GPS], isExpired=false}
+10:00:36,464 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu",
+            "device_id": "xt890",
+            "eventType": "shopping",
+            "timestamp": 323232
+        },
+        "payloadData": {
+            "value": "RAM,1,6.969316,79.870859",
+            "accuracy": 6.6,
+            "source": "Contacts"
+        }
+    }
+}
+10:00:36,465 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, Event Stream : InputStream:1.0.0, after processing 
+Event{timestamp=1450413036465, data=[vishnu, xt890, shopping, 323232, RAM,1,6.969316,79.870859, 6.6, Contacts], isExpired=false}
+10:00:36,465 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : InputStream:1.0.0 (InputStream), before processing 
+Event{timestamp=1450413036465, data=[vishnu, xt890, shopping, 323232, RAM,1,6.969316,79.870859, 6.6, Contacts], isExpired=false}
+10:00:36,465 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : ShoppingStream:1.0.0 (ShopItemStream), after processing 
+[Event{timestamp=1450413036465, data=[vishnu, RAM, 1, 6.969316, 79.870859, Contacts], isExpired=false}]
+10:00:36,465 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+[Event{timestamp=1450413036465, data=[vishnu, RAM, 1, 6.969316, 79.870859, Contacts], isExpired=false}]
+10:00:36,465 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingStream, Event Stream : ShoppingStream:1.0.0, before processing 
+Event{timestamp=1450413036465, data=[vishnu, RAM, 1, 6.969316, 79.870859, Contacts], isExpired=false}
+10:00:36,465 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+10:02:06,514 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu",
+            "device_id": "xt890",
+            "eventType": "shopping",
+            "timestamp": 323232
+        },
+        "payloadData": {
+            "value": "RAM,1,6.969316,79.870859",
+            "accuracy": 6.6,
+            "source": "Contacts"
+        }
+    }
+}
+10:02:06,515 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, Event Stream : InputStream:1.0.0, after processing 
+Event{timestamp=1450413126515, data=[vishnu, xt890, shopping, 323232, RAM,1,6.969316,79.870859, 6.6, Contacts], isExpired=false}
+10:02:06,515 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : InputStream:1.0.0 (InputStream), before processing 
+Event{timestamp=1450413126515, data=[vishnu, xt890, shopping, 323232, RAM,1,6.969316,79.870859, 6.6, Contacts], isExpired=false}
+10:02:06,515 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : ShoppingStream:1.0.0 (ShopItemStream), after processing 
+[Event{timestamp=1450413126515, data=[vishnu, RAM, 1, 6.969316, 79.870859, Contacts], isExpired=false}]
+10:02:06,515 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+[Event{timestamp=1450413126515, data=[vishnu, RAM, 1, 6.969316, 79.870859, Contacts], isExpired=false}]
+10:02:06,515 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingStream, Event Stream : ShoppingStream:1.0.0, before processing 
+Event{timestamp=1450413126515, data=[vishnu, RAM, 1, 6.969316, 79.870859, Contacts], isExpired=false}
+10:02:06,515 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+10:02:11,794 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "gobi",
+            "device_id": "m8",
+            "eventType": "location",
+            "timestamp": 323232
+        },
+        "payloadData": {
+            "value": "6.969316,79.870859",
+            "accuracy": 6.6,
+            "source": "GPS"
+        }
+    }
+}
+10:02:11,795 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, Event Stream : InputStream:1.0.0, after processing 
+Event{timestamp=1450413131795, data=[gobi, m8, location, 323232, 6.969316,79.870859, 6.6, GPS], isExpired=false}
+10:02:11,795 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : InputStream:1.0.0 (InputStream), before processing 
+Event{timestamp=1450413131795, data=[gobi, m8, location, 323232, 6.969316,79.870859, 6.6, GPS], isExpired=false}
+10:02:11,795 [-] [Siddhi-InputSplitPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), after processing 
+[Event{timestamp=1450413131795, data=[gobi, m8, 323232, 6.969316, 79.870859, 6.6, GPS], isExpired=false}]
+10:02:11,795 [-] [Siddhi-InputSplitPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+[Event{timestamp=1450413131795, data=[gobi, m8, 323232, 6.969316, 79.870859, 6.6, GPS], isExpired=false}]
+10:02:11,795 [-] [Siddhi-InputSplitPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : CurrentLocationStream, Event Stream : CurrentLocationStream:1.0.0, before processing 
+Event{timestamp=1450413131795, data=[gobi, m8, 323232, 6.969316, 79.870859, 6.6, GPS], isExpired=false}
+10:02:11,796 [-] [Siddhi-InputSplitPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : CurrentLocationStream, after processing 
+meta_user_id:gobi,
+meta_device_id:m8,
+timestamp:323232,
+lat:6.969316,
+lon:79.870859,
+accuracy:6.6,
+source:GPS
+10:02:11,799 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}, Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}, Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}]
+10:02:11,799 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}
+10:02:11,799 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+10:02:11,825 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}
+10:02:11,825 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+10:02:11,835 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}
+10:02:11,835 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+10:02:11,843 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1450413131795, data=[vishnu, PC, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}, Event{timestamp=1450413131795, data=[vishnu, PC, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}, Event{timestamp=1450413131795, data=[vishnu, PC, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}]
+10:02:11,843 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413131795, data=[vishnu, PC, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+10:02:11,844 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:PC,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:02:11,853 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413131795, data=[vishnu, PC, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+10:02:11,853 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:PC,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:02:11,863 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413131795, data=[vishnu, PC, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+10:02:11,863 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:PC,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:02:11,872 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, data1], isExpired=false}, Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, data1], isExpired=false}, Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, data1], isExpired=false}]
+10:02:11,872 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, data1], isExpired=false}
+10:02:11,872 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:data1
+10:02:11,880 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, data1], isExpired=false}
+10:02:11,880 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:data1
+10:02:11,890 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, data1], isExpired=false}
+10:02:11,890 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:data1
+10:02:11,902 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}, Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}, Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}]
+10:02:11,902 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}
+10:02:11,902 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+10:02:11,912 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}
+10:02:11,912 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+10:02:11,921 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}
+10:02:11,921 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+10:02:11,932 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}, Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}, Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}]
+10:02:11,932 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}
+10:02:11,932 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+10:02:11,941 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}
+10:02:11,941 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+10:02:11,950 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413131795, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}
+10:02:11,950 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+10:02:25,958 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu",
+            "device_id": "xt890",
+            "eventType": "friend",
+            "timestamp": 323232
+        },
+        "payloadData": {
+            "value": "gobi",
+            "accuracy": 6.6,
+            "source": "Contacts"
+        }
+    }
+}
+10:02:25,960 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, Event Stream : InputStream:1.0.0, after processing 
+Event{timestamp=1450413145960, data=[vishnu, xt890, friend, 323232, gobi, 6.6, Contacts], isExpired=false}
+10:02:25,960 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : InputStream:1.0.0 (InputStream), before processing 
+Event{timestamp=1450413145960, data=[vishnu, xt890, friend, 323232, gobi, 6.6, Contacts], isExpired=false}
+10:02:25,960 [-] [Siddhi-InputSplitPlan-executor-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), after processing 
+[Event{timestamp=1450413145960, data=[vishnu, gobi], isExpired=false}]
+10:02:25,960 [-] [Siddhi-InputSplitPlan-executor-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+[Event{timestamp=1450413145960, data=[vishnu, gobi], isExpired=false}]
+10:02:25,961 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1450413145960, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}, Event{timestamp=1450413145960, data=[vishnu, PC, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}, Event{timestamp=1450413145960, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, data1], isExpired=false}, Event{timestamp=1450413145960, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}, Event{timestamp=1450413145960, data=[vishnu, PC, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}, Event{timestamp=1450413145960, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, data1], isExpired=false}, Event{timestamp=1450413145960, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}, Event{timestamp=1450413145960, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}]
+10:02:25,961 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413145960, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}
+10:02:25,961 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+10:02:25,977 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413145960, data=[vishnu, PC, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+10:02:25,977 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:PC,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:02:25,986 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413145960, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, data1], isExpired=false}
+10:02:25,986 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:data1
+10:02:25,995 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413145960, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}
+10:02:25,995 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+10:02:26,003 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413145960, data=[vishnu, PC, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+10:02:26,003 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:PC,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:02:26,011 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413145960, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, data1], isExpired=false}
+10:02:26,012 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:data1
+10:02:26,024 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413145960, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}
+10:02:26,024 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+10:02:26,034 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413145960, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, Contacts], isExpired=false}
+10:02:26,034 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+10:03:11,544 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu",
+            "device_id": "xt890",
+            "eventType": "shopping",
+            "timestamp": 323232
+        },
+        "payloadData": {
+            "value": "RAM,1,6.969316,79.870859",
+            "accuracy": 6.6,
+            "source": "ToDo"
+        }
+    }
+}
+10:03:11,545 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, Event Stream : InputStream:1.0.0, after processing 
+Event{timestamp=1450413191545, data=[vishnu, xt890, shopping, 323232, RAM,1,6.969316,79.870859, 6.6, ToDo], isExpired=false}
+10:03:11,545 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : InputStream:1.0.0 (InputStream), before processing 
+Event{timestamp=1450413191545, data=[vishnu, xt890, shopping, 323232, RAM,1,6.969316,79.870859, 6.6, ToDo], isExpired=false}
+10:03:11,546 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : ShoppingStream:1.0.0 (ShopItemStream), after processing 
+[Event{timestamp=1450413191545, data=[vishnu, RAM, 1, 6.969316, 79.870859, ToDo], isExpired=false}]
+10:03:11,546 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+[Event{timestamp=1450413191545, data=[vishnu, RAM, 1, 6.969316, 79.870859, ToDo], isExpired=false}]
+10:03:11,546 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingStream, Event Stream : ShoppingStream:1.0.0, before processing 
+Event{timestamp=1450413191545, data=[vishnu, RAM, 1, 6.969316, 79.870859, ToDo], isExpired=false}
+10:03:11,546 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:03:11,546 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1450413191545, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}, Event{timestamp=1450413191545, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}, Event{timestamp=1450413191545, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}, Event{timestamp=1450413191545, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}]
+10:03:11,546 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413191545, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+10:03:11,546 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:03:11,567 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413191545, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+10:03:11,567 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:03:11,577 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413191545, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+10:03:11,577 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:03:11,585 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413191545, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+10:03:11,585 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:06:12,978 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu",
+            "device_id": "xt890",
+            "eventType": "shopping",
+            "timestamp": 323232
+        },
+        "payloadData": {
+            "value": "RAM,1,6.969316,79.870859",
+            "accuracy": 6.6,
+            "source": "ToDo"
+        }
+    }
+}
+10:06:12,980 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, Event Stream : InputStream:1.0.0, after processing 
+Event{timestamp=1450413372980, data=[vishnu, xt890, shopping, 323232, RAM,1,6.969316,79.870859, 6.6, ToDo], isExpired=false}
+10:06:12,980 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : InputStream:1.0.0 (InputStream), before processing 
+Event{timestamp=1450413372980, data=[vishnu, xt890, shopping, 323232, RAM,1,6.969316,79.870859, 6.6, ToDo], isExpired=false}
+10:06:12,980 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : ShoppingStream:1.0.0 (ShopItemStream), after processing 
+[Event{timestamp=1450413372980, data=[vishnu, RAM, 1, 6.969316, 79.870859, ToDo], isExpired=false}]
+10:06:12,980 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+[Event{timestamp=1450413372980, data=[vishnu, RAM, 1, 6.969316, 79.870859, ToDo], isExpired=false}]
+10:06:12,981 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1450413372980, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}, Event{timestamp=1450413372980, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}, Event{timestamp=1450413372980, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}, Event{timestamp=1450413372980, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}]
+10:06:12,981 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413372980, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+10:06:12,981 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:06:12,990 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413372980, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+10:06:12,990 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:06:13,002 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413372980, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+10:06:13,002 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:06:13,015 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413372980, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+10:06:13,016 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:06:35,949 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "gobi",
+            "device_id": "xt890",
+            "eventType": "shopping",
+            "timestamp": 323232
+        },
+        "payloadData": {
+            "value": "VGA,1,6.969316,79.870859",
+            "accuracy": 6.6,
+            "source": "ToDo"
+        }
+    }
+}
+10:06:35,950 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, Event Stream : InputStream:1.0.0, after processing 
+Event{timestamp=1450413395950, data=[gobi, xt890, shopping, 323232, VGA,1,6.969316,79.870859, 6.6, ToDo], isExpired=false}
+10:06:35,950 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : InputStream:1.0.0 (InputStream), before processing 
+Event{timestamp=1450413395950, data=[gobi, xt890, shopping, 323232, VGA,1,6.969316,79.870859, 6.6, ToDo], isExpired=false}
+10:06:35,951 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : ShoppingStream:1.0.0 (ShopItemStream), after processing 
+[Event{timestamp=1450413395950, data=[gobi, VGA, 1, 6.969316, 79.870859, ToDo], isExpired=false}]
+10:06:35,951 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+[Event{timestamp=1450413395950, data=[gobi, VGA, 1, 6.969316, 79.870859, ToDo], isExpired=false}]
+10:06:35,951 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1450413395950, data=[gobi, VGA, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}, Event{timestamp=1450413395950, data=[gobi, VGA, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}, Event{timestamp=1450413395950, data=[gobi, VGA, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}, Event{timestamp=1450413395950, data=[gobi, VGA, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}]
+10:06:35,951 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413395950, data=[gobi, VGA, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+10:06:35,951 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:gobi,
+item:VGA,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:06:35,960 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413395950, data=[gobi, VGA, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+10:06:35,960 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:gobi,
+item:VGA,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:06:35,968 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413395950, data=[gobi, VGA, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+10:06:35,968 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:gobi,
+item:VGA,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:06:35,977 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413395950, data=[gobi, VGA, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+10:06:35,977 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:gobi,
+item:VGA,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:06:53,723 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu",
+            "device_id": "m8",
+            "eventType": "location",
+            "timestamp": 323232
+        },
+        "payloadData": {
+            "value": "6.969316,79.870859",
+            "accuracy": 6.6,
+            "source": "GPS"
+        }
+    }
+}
+10:06:53,724 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, Event Stream : InputStream:1.0.0, after processing 
+Event{timestamp=1450413413724, data=[vishnu, m8, location, 323232, 6.969316,79.870859, 6.6, GPS], isExpired=false}
+10:06:53,725 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : InputStream:1.0.0 (InputStream), before processing 
+Event{timestamp=1450413413724, data=[vishnu, m8, location, 323232, 6.969316,79.870859, 6.6, GPS], isExpired=false}
+10:06:53,725 [-] [Siddhi-InputSplitPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), after processing 
+[Event{timestamp=1450413413724, data=[vishnu, m8, 323232, 6.969316, 79.870859, 6.6, GPS], isExpired=false}]
+10:06:53,725 [-] [Siddhi-InputSplitPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+[Event{timestamp=1450413413724, data=[vishnu, m8, 323232, 6.969316, 79.870859, 6.6, GPS], isExpired=false}]
+10:07:02,598 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "gobi",
+            "device_id": "xt890",
+            "eventType": "friend",
+            "timestamp": 323232
+        },
+        "payloadData": {
+            "value": "vishnu",
+            "accuracy": 6.6,
+            "source": "Contacts"
+        }
+    }
+}
+10:07:02,598 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, Event Stream : InputStream:1.0.0, after processing 
+Event{timestamp=1450413422598, data=[gobi, xt890, friend, 323232, vishnu, 6.6, Contacts], isExpired=false}
+10:07:02,598 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : InputStream:1.0.0 (InputStream), before processing 
+Event{timestamp=1450413422598, data=[gobi, xt890, friend, 323232, vishnu, 6.6, Contacts], isExpired=false}
+10:07:02,599 [-] [Siddhi-InputSplitPlan-executor-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), after processing 
+[Event{timestamp=1450413422598, data=[gobi, vishnu], isExpired=false}]
+10:07:02,599 [-] [Siddhi-InputSplitPlan-executor-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+[Event{timestamp=1450413422598, data=[gobi, vishnu], isExpired=false}]
+10:07:02,599 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1450413422598, data=[vishnu, RAM, 1, vishnu, 6.969316, 79.870859, Contacts], isExpired=false}, Event{timestamp=1450413422598, data=[vishnu, PC, 1, vishnu, 6.969316, 79.870859, ToDo], isExpired=false}, Event{timestamp=1450413422598, data=[vishnu, RAM, 1, vishnu, 6.969316, 79.870859, data1], isExpired=false}, Event{timestamp=1450413422598, data=[vishnu, RAM, 1, vishnu, 6.969316, 79.870859, Contacts], isExpired=false}, Event{timestamp=1450413422598, data=[vishnu, RAM, 1, vishnu, 6.969316, 79.870859, Contacts], isExpired=false}, Event{timestamp=1450413422598, data=[vishnu, RAM, 1, vishnu, 6.969316, 79.870859, ToDo], isExpired=false}, Event{timestamp=1450413422598, data=[vishnu, RAM, 1, vishnu, 6.969316, 79.870859, ToDo], isExpired=false}, Event{timestamp=1450413422598, data=[gobi, VGA, 1, vishnu, 6.969316, 79.870859, ToDo], isExpired=false}]
+10:07:02,599 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413422598, data=[vishnu, RAM, 1, vishnu, 6.969316, 79.870859, Contacts], isExpired=false}
+10:07:02,599 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:vishnu,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+10:07:02,607 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413422598, data=[vishnu, PC, 1, vishnu, 6.969316, 79.870859, ToDo], isExpired=false}
+10:07:02,607 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:PC,
+qty:1,
+friend_id:vishnu,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:07:02,621 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413422598, data=[vishnu, RAM, 1, vishnu, 6.969316, 79.870859, data1], isExpired=false}
+10:07:02,621 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:vishnu,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:data1
+10:07:02,632 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413422598, data=[vishnu, RAM, 1, vishnu, 6.969316, 79.870859, Contacts], isExpired=false}
+10:07:02,632 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:vishnu,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+10:07:02,641 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413422598, data=[vishnu, RAM, 1, vishnu, 6.969316, 79.870859, Contacts], isExpired=false}
+10:07:02,641 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:vishnu,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:Contacts
+10:07:02,651 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413422598, data=[vishnu, RAM, 1, vishnu, 6.969316, 79.870859, ToDo], isExpired=false}
+10:07:02,651 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:vishnu,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:07:02,661 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413422598, data=[vishnu, RAM, 1, vishnu, 6.969316, 79.870859, ToDo], isExpired=false}
+10:07:02,661 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:vishnu,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:07:02,672 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413422598, data=[gobi, VGA, 1, vishnu, 6.969316, 79.870859, ToDo], isExpired=false}
+10:07:02,672 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:gobi,
+item:VGA,
+qty:1,
+friend_id:vishnu,
+lat:6.969316,
+lon:79.870859,
+geoJSONGeometryFence:ToDo
+10:13:02,418 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu",
+            "device_id": "xt890",
+            "eventType": "friend",
+            "timestamp": 323232
+        },
+        "payloadData": {
+            "value": "gobi",
+            "accuracy": 6.6,
+            "source": "Contacts"
+        }
+    }
+}
+10:13:02,419 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, Event Stream : InputStream:1.0.0, after processing 
+Event{timestamp=1450413782419, data=[vishnu, xt890, friend, 323232, gobi, 6.6, Contacts], isExpired=false}
+10:13:02,419 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : InputStream:1.0.0 (InputStream), before processing 
+Event{timestamp=1450413782419, data=[vishnu, xt890, friend, 323232, gobi, 6.6, Contacts], isExpired=false}
+10:13:02,419 [-] [Siddhi-InputSplitPlan-executor-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), after processing 
+[Event{timestamp=1450413782419, data=[vishnu, gobi], isExpired=false}]
+10:13:02,419 [-] [Siddhi-InputSplitPlan-executor-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+[Event{timestamp=1450413782419, data=[vishnu, gobi], isExpired=false}]
+10:13:06,532 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "gobi",
+            "device_id": "m8",
+            "eventType": "location",
+            "timestamp": 323232
+        },
+        "payloadData": {
+            "value": "6.969316,79.870859",
+            "accuracy": 6.6,
+            "source": "GPS"
+        }
+    }
+}
+10:13:06,533 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, Event Stream : InputStream:1.0.0, after processing 
+Event{timestamp=1450413786533, data=[gobi, m8, location, 323232, 6.969316,79.870859, 6.6, GPS], isExpired=false}
+10:13:06,533 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : InputStream:1.0.0 (InputStream), before processing 
+Event{timestamp=1450413786533, data=[gobi, m8, location, 323232, 6.969316,79.870859, 6.6, GPS], isExpired=false}
+10:13:06,533 [-] [Siddhi-InputSplitPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), after processing 
+[Event{timestamp=1450413786533, data=[gobi, m8, 323232, 6.969316, 79.870859, 6.6, GPS], isExpired=false}]
+10:13:06,533 [-] [Siddhi-InputSplitPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+[Event{timestamp=1450413786533, data=[gobi, m8, 323232, 6.969316, 79.870859, 6.6, GPS], isExpired=false}]
+10:13:13,637 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu",
+            "device_id": "xt890",
+            "eventType": "shopping",
+            "timestamp": 323232
+        },
+        "payloadData": {
+            "value": "RAM,1,6.969316,79.870859",
+            "accuracy": 6.6,
+            "source": "ToDo"
+        }
+    }
+}
+10:13:13,637 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : InputReceiver, Event Stream : InputStream:1.0.0, after processing 
+Event{timestamp=1450413793637, data=[vishnu, xt890, shopping, 323232, RAM,1,6.969316,79.870859, 6.6, ToDo], isExpired=false}
+10:13:13,638 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : InputStream:1.0.0 (InputStream), before processing 
+Event{timestamp=1450413793637, data=[vishnu, xt890, shopping, 323232, RAM,1,6.969316,79.870859, 6.6, ToDo], isExpired=false}
+10:13:13,638 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : InputSplitPlan, Event Stream : ShoppingStream:1.0.0 (ShopItemStream), after processing 
+[Event{timestamp=1450413793637, data=[vishnu, RAM, 1, 6.969316, 79.870859, ToDo], isExpired=false}]
+10:13:13,638 [-] [Siddhi-InputSplitPlan-executor-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+[Event{timestamp=1450413793637, data=[vishnu, RAM, 1, 6.969316, 79.870859, ToDo], isExpired=false}]
+10:13:13,638 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1450413793637, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}]
+10:13:13,638 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1450413793637, data=[vishnu, RAM, 1, gobi, 6.969316, 79.870859, ToDo], isExpired=false}
+10:13:13,638 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:6.969316,
+lon:79.870859,
+source:ToDo

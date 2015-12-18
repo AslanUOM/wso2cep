@@ -1,0 +1,38 @@
+{
+  "name": "ShoppingOutStream",
+  "version": "1.0.0",
+  "nickName": "",
+  "description": "Shared shopping plan",
+  "metaData": [
+    {
+      "name": "user_id",
+      "type": "STRING"
+    }
+  ],
+  "payloadData": [
+    {
+      "name": "item",
+      "type": "STRING"
+    },
+    {
+      "name": "qty",
+      "type": "STRING"
+    },
+    {
+      "name": "friend_id",
+      "type": "STRING"
+    },
+    {
+      "name": "lat",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "lon",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "source",
+      "type": "STRING"
+    }
+  ]
+}

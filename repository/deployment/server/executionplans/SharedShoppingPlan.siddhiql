@@ -1,0 +1,59 @@
+@Plan:name('SharedShoppingPlan')
+@Plan:description('SharedShoppingPlan with items matching with friend locaion')
+
+@Plan:trace('true')
+
+@Plan:statistics('true')
+
+@Import('ShoppingStream:1.0.0')
+define stream ShoppingStream (meta_user_id string, item string, qty string, lat double, lon double, source string);
+
+@Import('CurrentLocationStream:1.0.0')
+define stream CurrentLocationStream (meta_user_id string, meta_device_id string, timestamp long, lat double, lon double, accuracy float, source string);
+
+@Import('FriendsStream:1.0.0')
+define stream FriendsStream (meta_user_id string, friend_id string);
+define stream TempFriendsStream (user_id string, friend_id string);
+
+--@From(eventtable='rdbms', datasource.name='ConTraDataSource', table.name='FriendsTable')
+--define table FriendsTable (user_id string, friend_id string);
+
+@Export('ShoppingOutStream:1.0.0')
+define stream SharedShoppingPlan (meta_user_id string, item string, qty string, friend_id string, lat double, lon double, source string);
+define stream TempSharedShoppingPlan (user_id string, item string, qty string, friend_id string, lat double, lon double, source string);
+--define stream FilteredTempSharedShoppingPlan (user_id string, item string, qty string, friend_id string, lat double, lon double, source string);
+
+partition with (meta_user_id of FriendsStream)
+begin
+	from FriendsStream#window.time(24 hour)
+	select meta_user_id as user_id, friend_id as friend_id
+	insert into TempFriendsStream;
+end;
+
+from ShoppingStream#window.time(24 hour) as Item
+	join CurrentLocationStream#window.time(5 min) as Loc
+	--on Item.lat == Loc.lat and Item.lon == Loc.lon
+	on contra:within(Loc.lat, Loc.lon, Item.lat, Item.lon, 1.0)
+select 
+	Item.meta_user_id as user_id, 
+	Item.item as item, Item.qty as qty, 
+	Loc.meta_user_id as friend_id, 
+	Item.lat as lat, 
+	Item.lon as lon, 
+	Item.source as source
+insert into TempSharedShoppingPlan;
+
+from TempSharedShoppingPlan#window.time(24 hour) as TempPlan
+	join TempFriendsStream#window.time(24 hour) as Friends
+	on Friends.friend_id == TempPlan.friend_id
+select 
+	TempPlan.user_id as meta_user_id, 
+	TempPlan.item as item, 
+	TempPlan.qty as qty, 
+	TempPlan.friend_id as friend_id, 
+	TempPlan.lat as lat, 
+	TempPlan.lon as lon, 
+	TempPlan.source as source
+insert into SharedShoppingPlan;
+
+                    

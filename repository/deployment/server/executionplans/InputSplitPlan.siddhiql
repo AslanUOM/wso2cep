@@ -1,0 +1,71 @@
+@Plan:name('InputSplitPlan')
+@Plan:description('Split input stream of data into relevant streams')
+
+@Plan:trace('true')
+
+@Plan:statistics('true')
+
+@Import('InputStream:1.0.0')
+define stream InputStream (meta_user_id string, meta_device_id string, meta_eventType string, meta_timestamp long, value string, accuracy float, source string);
+
+@Export('BluetoothStream:1.0.0')
+define stream Bluetooth (meta_user_id string, meta_device_id string, meta_timestamp long, value string, source string, strength float);
+
+@Export('WiFiStream:1.0.0')
+define stream WiFiStream (meta_user_id string, meta_device_id string, meta_timestamp long, value string, source string, strength float);
+
+@Export('ShoppingStream:1.0.0')
+define stream ShopItemStream (meta_user_id string, item string, qty string, lat double, lon double, source string);
+
+@Export('CurrentLocationStream:1.0.0')
+define stream CurrentLocationStream (meta_user_id string, meta_device_id string, timestamp long, lat double, lon double, accuracy float, source string);
+
+@Export('FriendsStream:1.0.0')
+define stream FriendsStream (meta_user_id string, friend_id string);
+
+from InputStream[meta_eventType == "bluetooth"]
+select 
+	meta_user_id as meta_user_id, 
+	meta_device_id as meta_device_id, 
+	meta_timestamp as meta_timestamp,
+	value as value,
+	source as source,
+	accuracy as strength
+insert into Bluetooth;
+
+from InputStream[meta_eventType == "wifi"]
+select 
+	meta_user_id as meta_user_id, 
+	meta_device_id as meta_device_id, 
+	meta_timestamp as meta_timestamp,
+	value as value,
+	source as source,
+	accuracy as strength
+insert into WiFiStream;
+
+from InputStream[meta_eventType == "location"]
+select 
+	meta_user_id as meta_user_id, 
+	meta_device_id as meta_device_id, 
+	meta_timestamp as timestamp,
+	math:parseDouble(contra:split(value, ",", 0)) as lat,
+	math:parseDouble(contra:split(value, ",", 1)) as lon,
+	accuracy as accuracy,
+	source as source
+insert into CurrentLocationStream;
+
+from InputStream[meta_eventType == "shopping"]
+select 
+	meta_user_id as meta_user_id,
+	contra:split(value, ",", 0) as item,
+	contra:split(value, ",", 1) as qty,
+	math:parseDouble(contra:split(value, ",", 2)) as lat,
+	math:parseDouble(contra:split(value, ",", 3)) as lon,
+	source as source
+insert into ShopItemStream;
+
+from InputStream[meta_eventType == "friend"]
+select 
+	meta_user_id as meta_user_id,
+	value as friend_id
+insert into FriendsStream;

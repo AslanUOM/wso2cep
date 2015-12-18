@@ -1,0 +1,38 @@
+{
+  "name": "InputStream",
+  "version": "1.0.0",
+  "nickName": "",
+  "description": "Sensor data input stream",
+  "metaData": [
+    {
+      "name": "user_id",
+      "type": "STRING"
+    },
+    {
+      "name": "device_id",
+      "type": "STRING"
+    },
+    {
+      "name": "eventType",
+      "type": "STRING"
+    },
+    {
+      "name": "timestamp",
+      "type": "LONG"
+    }
+  ],
+  "payloadData": [
+    {
+      "name": "value",
+      "type": "STRING"
+    },
+    {
+      "name": "accuracy",
+      "type": "FLOAT"
+    },
+    {
+      "name": "source",
+      "type": "STRING"
+    }
+  ]
+}

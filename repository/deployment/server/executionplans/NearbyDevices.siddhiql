@@ -1,0 +1,25 @@
+@Plan:name('NearbyDevices')
+@Plan:description('Find nearby devices using WiFi and Bluetooth BSSIDs')
+@Plan:trace('true')
+@Plan:statistics('true')
+
+@Import('CurrentLocationStream:1.0.0')
+define stream CurrentLocationStream (meta_user_id string, meta_device_id string, timestamp long, lat double, lon double, accuracy float, source string);
+
+@Import('WiFiStream:1.0.0')
+define stream WiFiStream (meta_user_id string, meta_device_id string, meta_timestamp long, value string, source string, strength float);
+
+@Import('BluetoothStream:1.0.0')
+define stream BluetoothStream (meta_user_id string, meta_device_id string, meta_timestamp long, value string, source string, strength float);
+
+@Export('NearbyDevicesStream:1.0.0')
+define stream NearbyBT (value string);
+
+from BluetoothStream#window.unique(meta_device_id) as bt1
+	join BluetoothStream#window.unique(meta_device_id) as bt2
+	--on contra:nearby(bt1.meta_device_id, bt1.value, bt2.meta_device_id, bt2.value)
+	on bt1.value != bt2.value
+select 
+	--contra:nearbyBT(bt1.meta_device_id, bt1.value, bt2.meta_device_id, bt2.value) as value
+	str:concat(bt1.value, ", ", bt2.value) as value
+insert into NearbyBT;

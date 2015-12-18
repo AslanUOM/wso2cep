@@ -1,0 +1,953 @@
+00:37:14,646 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449774434646, data=[vishnu, gobi], isExpired=false}
+00:37:14,670 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774434670, data=[vishnu, xt890, 1449774434547, 43.005895, -71.013202, 99.0, GPS], isExpired=false}
+00:37:14,665 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449774434665, data=[vishnu, RAM, 1, 43.005895, -71.013202, {'type': 'Circle', 'radius': 2000, 'coordinates':[43.005895, -71.013202]}], isExpired=false}
+00:37:16,668 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449774436668, data=[vishnu, raveen], isExpired=false}
+00:37:16,671 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449774436671, data=[gobi, RAM, 1, 43.005895, -71.013202, {'type': 'Circle', 'radius': 2000, 'coordinates':[43.005895, -71.013202]}], isExpired=false}
+00:37:16,674 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774436674, data=[gobi, m8, 1449774436670, 43.005895, -71.013202, 99.0, GPS], isExpired=false}
+00:37:18,671 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449774438671, data=[vishnu, prasath], isExpired=false}
+00:37:18,674 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449774438674, data=[raveen, LAP, 1, 43.005895, -71.013202, {'type': 'Circle', 'radius': 2000, 'coordinates':[43.005895, -71.013202]}], isExpired=false}
+00:37:18,677 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774438677, data=[raveen, m2, 1449774438675, 43.005895, -71.013202, 99.0, GPS], isExpired=false}
+00:37:20,674 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449774440674, data=[vishnu, annet], isExpired=false}
+00:37:20,677 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449774440677, data=[prasath, PC, 1, 43.005895, -71.013202, {'type': 'Circle', 'radius': 2000, 'coordinates':[43.005895, -71.013202]}], isExpired=false}
+00:37:20,679 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774440679, data=[prasath, lumia, 1449774440677, 43.005895, -71.013202, 99.0, GPS], isExpired=false}
+00:37:22,677 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449774442677, data=[vishnu, vishnu], isExpired=false}
+00:37:22,679 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449774442679, data=[annet, LAP, 1, 43.005895, -71.013202, {'type': 'Circle', 'radius': 2000, 'coordinates':[43.005895, -71.013202]}], isExpired=false}
+00:37:22,682 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774442682, data=[annet, i4, 1449774442679, 43.005895, -71.013202, 99.0, GPS], isExpired=false}
+00:37:24,686 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774444686, data=[vishnu, xt890, 1449774444682, 43.005895, -71.013202, 99.0, GPS], isExpired=false}
+00:37:26,690 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774446690, data=[gobi, m8, 1449774446688, 40.922326, -72.637078, 99.0, GPS], isExpired=false}
+00:37:28,693 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774448693, data=[raveen, m2, 1449774448691, 40.922326, -72.637078, 99.0, GPS], isExpired=false}
+00:37:30,696 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774450696, data=[prasath, lumia, 1449774450694, 18.180103, -66.74947, 99.0, GPS], isExpired=false}
+00:37:32,700 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774452700, data=[annet, i4, 1449774452697, 18.363285, -67.18024, 99.0, GPS], isExpired=false}
+00:37:34,703 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774454703, data=[vishnu, xt890, 1449774454700, 18.448619, -67.13422, 99.0, GPS], isExpired=false}
+00:37:36,707 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774456707, data=[gobi, m8, 1449774456704, 18.498987, -67.13699, 99.0, GPS], isExpired=false}
+00:37:38,709 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774458709, data=[raveen, m2, 1449774458707, 18.465162, -67.141486, 99.0, GPS], isExpired=false}
+00:37:40,712 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774460712, data=[prasath, lumia, 1449774460709, 18.182151, -66.9588, 99.0, GPS], isExpired=false}
+00:37:42,716 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774462716, data=[annet, i4, 1449774462713, 18.256995, -66.104657, 99.0, GPS], isExpired=false}
+00:37:44,720 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774464720, data=[vishnu, xt890, 1449774464717, 18.142002, -66.273278, 99.0, GPS], isExpired=false}
+00:37:46,722 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774466722, data=[gobi, m8, 1449774466720, 18.288319, -67.13604, 99.0, GPS], isExpired=false}
+00:37:48,726 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774468726, data=[raveen, m2, 1449774468723, 18.279531, -66.80217, 99.0, GPS], isExpired=false}
+00:37:50,729 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774470729, data=[prasath, lumia, 1449774470726, 18.449732, -66.69879, 99.0, GPS], isExpired=false}
+00:37:52,732 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774472732, data=[annet, i4, 1449774472730, 18.458093, -66.732732, 99.0, GPS], isExpired=false}
+00:37:54,735 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774474735, data=[vishnu, xt890, 1449774474733, 18.429675, -66.674506, 99.0, GPS], isExpired=false}
+00:37:56,739 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774476739, data=[gobi, m8, 1449774476735, 17.96977, -66.061459, 99.0, GPS], isExpired=false}
+00:37:58,743 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774478743, data=[raveen, m2, 1449774478740, 18.426748, -66.67669, 99.0, GPS], isExpired=false}
+00:38:00,745 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774480745, data=[prasath, lumia, 1449774480743, 18.455499, -66.55575, 99.0, GPS], isExpired=false}
+00:38:02,748 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774482748, data=[annet, i4, 1449774482746, 18.185463, -66.305827, 99.0, GPS], isExpired=false}
+00:38:04,751 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774484751, data=[vishnu, xt890, 1449774484748, 18.003125, -67.16745, 99.0, GPS], isExpired=false}
+00:38:06,753 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774486753, data=[gobi, m8, 1449774486751, 18.08643, -67.15222, 99.0, GPS], isExpired=false}
+00:38:08,757 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774488757, data=[raveen, m2, 1449774488754, 18.055399, -66.72602, 99.0, GPS], isExpired=false}
+00:38:10,760 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774490760, data=[prasath, lumia, 1449774490757, 18.232109, -66.039087, 99.0, GPS], isExpired=false}
+00:38:12,764 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774492764, data=[annet, i4, 1449774492761, 18.235003, -66.037318, 99.0, GPS], isExpired=false}
+00:39:03,621 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449774543621, data=[vishnu, RAM, 1, 43.005895, -71.013202, {'type': 'Circle', 'radius': 2000, 'coordinates':[43.005895, -71.013202]}], isExpired=false}
+00:39:03,639 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774543639, data=[vishnu, xt890, 1449774543499, 43.005895, -71.013202, 99.0, GPS], isExpired=false}
+00:39:03,642 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449774543642, data=[vishnu, gobi], isExpired=false}
+00:39:05,641 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449774545641, data=[gobi, RAM, 1, 43.005895, -71.013202, {'type': 'Circle', 'radius': 2000, 'coordinates':[43.005895, -71.013202]}], isExpired=false}
+00:39:05,644 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774545644, data=[gobi, m8, 1449774545640, 43.005895, -71.013202, 99.0, GPS], isExpired=false}
+00:39:05,645 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449774545645, data=[vishnu, raveen], isExpired=false}
+00:39:07,643 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449774547643, data=[raveen, LAP, 1, 43.005895, -71.013202, {'type': 'Circle', 'radius': 2000, 'coordinates':[43.005895, -71.013202]}], isExpired=false}
+00:39:07,646 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774547646, data=[raveen, m2, 1449774547644, 43.005895, -71.013202, 99.0, GPS], isExpired=false}
+00:39:07,649 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449774547649, data=[vishnu, prasath], isExpired=false}
+00:39:09,647 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449774549647, data=[prasath, PC, 1, 43.005895, -71.013202, {'type': 'Circle', 'radius': 2000, 'coordinates':[43.005895, -71.013202]}], isExpired=false}
+00:39:09,650 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774549650, data=[prasath, lumia, 1449774549648, 43.005895, -71.013202, 99.0, GPS], isExpired=false}
+00:39:09,651 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449774549651, data=[vishnu, annet], isExpired=false}
+00:39:11,651 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449774551651, data=[annet, LAP, 1, 43.005895, -71.013202, {'type': 'Circle', 'radius': 2000, 'coordinates':[43.005895, -71.013202]}], isExpired=false}
+00:39:11,653 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774551653, data=[annet, i4, 1449774551651, 43.005895, -71.013202, 99.0, GPS], isExpired=false}
+00:39:11,655 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449774551655, data=[vishnu, vishnu], isExpired=false}
+00:39:13,656 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774553656, data=[vishnu, xt890, 1449774553653, 43.005895, -71.013202, 99.0, GPS], isExpired=false}
+00:39:15,662 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774555662, data=[gobi, m8, 1449774555659, 40.922326, -72.637078, 99.0, GPS], isExpired=false}
+00:39:17,665 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774557665, data=[raveen, m2, 1449774557662, 40.922326, -72.637078, 99.0, GPS], isExpired=false}
+00:39:19,668 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774559668, data=[prasath, lumia, 1449774559666, 18.180103, -66.74947, 99.0, GPS], isExpired=false}
+00:39:21,670 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774561669, data=[annet, i4, 1449774561668, 18.363285, -67.18024, 99.0, GPS], isExpired=false}
+00:39:23,673 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774563673, data=[vishnu, xt890, 1449774563671, 18.448619, -67.13422, 99.0, GPS], isExpired=false}
+00:39:25,676 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774565676, data=[gobi, m8, 1449774565674, 18.498987, -67.13699, 99.0, GPS], isExpired=false}
+00:39:27,680 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774567680, data=[raveen, m2, 1449774567677, 18.465162, -67.141486, 99.0, GPS], isExpired=false}
+00:39:29,683 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774569683, data=[prasath, lumia, 1449774569680, 18.182151, -66.9588, 99.0, GPS], isExpired=false}
+00:39:31,685 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774571685, data=[annet, i4, 1449774571683, 18.256995, -66.104657, 99.0, GPS], isExpired=false}
+00:39:33,689 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774573689, data=[vishnu, xt890, 1449774573686, 18.142002, -66.273278, 99.0, GPS], isExpired=false}
+00:39:35,693 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774575693, data=[gobi, m8, 1449774575690, 18.288319, -67.13604, 99.0, GPS], isExpired=false}
+00:39:37,696 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774577696, data=[raveen, m2, 1449774577693, 18.279531, -66.80217, 99.0, GPS], isExpired=false}
+00:39:39,700 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774579700, data=[prasath, lumia, 1449774579697, 18.449732, -66.69879, 99.0, GPS], isExpired=false}
+00:39:41,703 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774581703, data=[annet, i4, 1449774581701, 18.458093, -66.732732, 99.0, GPS], isExpired=false}
+00:39:43,707 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774583707, data=[vishnu, xt890, 1449774583704, 18.429675, -66.674506, 99.0, GPS], isExpired=false}
+00:39:45,710 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774585710, data=[gobi, m8, 1449774585708, 17.96977, -66.061459, 99.0, GPS], isExpired=false}
+00:39:47,712 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774587712, data=[raveen, m2, 1449774587710, 18.426748, -66.67669, 99.0, GPS], isExpired=false}
+00:39:49,716 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774589716, data=[prasath, lumia, 1449774589713, 18.455499, -66.55575, 99.0, GPS], isExpired=false}
+00:39:51,719 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774591719, data=[annet, i4, 1449774591718, 18.185463, -66.305827, 99.0, GPS], isExpired=false}
+00:39:53,722 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774593722, data=[vishnu, xt890, 1449774593720, 18.003125, -67.16745, 99.0, GPS], isExpired=false}
+00:39:55,725 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774595725, data=[gobi, m8, 1449774595722, 18.08643, -67.15222, 99.0, GPS], isExpired=false}
+00:39:57,728 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774597728, data=[raveen, m2, 1449774597725, 18.055399, -66.72602, 99.0, GPS], isExpired=false}
+00:39:59,732 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774599732, data=[prasath, lumia, 1449774599729, 18.232109, -66.039087, 99.0, GPS], isExpired=false}
+00:40:01,735 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774601735, data=[annet, i4, 1449774601732, 18.235003, -66.037318, 99.0, GPS], isExpired=false}
+00:41:56,753 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449774716753, data=[vishnu, gobi], isExpired=false}
+00:41:56,779 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774716779, data=[vishnu, xt890, 1449774716638, 43.005895, -71.013202, 99.0, GPS], isExpired=false}
+00:41:56,783 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449774716783, data=[vishnu, RAM, 1, 43.005895, -71.013202, {'type': 'Circle', 'radius': 2000, 'coordinates':[43.005895, -71.013202]}], isExpired=false}
+00:41:58,781 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449774718780, data=[vishnu, raveen], isExpired=false}
+00:41:58,782 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774718782, data=[gobi, m8, 1449774718779, 43.005895, -71.013202, 99.0, GPS], isExpired=false}
+00:41:58,784 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449774718784, data=[gobi, RAM, 1, 43.005895, -71.013202, {'type': 'Circle', 'radius': 2000, 'coordinates':[43.005895, -71.013202]}], isExpired=false}
+00:42:00,784 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449774720783, data=[vishnu, prasath], isExpired=false}
+00:42:00,786 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774720786, data=[raveen, m2, 1449774720784, 43.005895, -71.013202, 99.0, GPS], isExpired=false}
+00:42:00,789 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449774720788, data=[raveen, LAP, 1, 43.005895, -71.013202, {'type': 'Circle', 'radius': 2000, 'coordinates':[43.005895, -71.013202]}], isExpired=false}
+00:42:02,788 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449774722788, data=[vishnu, annet], isExpired=false}
+00:42:02,789 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774722789, data=[prasath, lumia, 1449774722787, 43.005895, -71.013202, 99.0, GPS], isExpired=false}
+00:42:02,791 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449774722791, data=[prasath, PC, 1, 43.005895, -71.013202, {'type': 'Circle', 'radius': 2000, 'coordinates':[43.005895, -71.013202]}], isExpired=false}
+00:42:04,792 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449774724792, data=[vishnu, vishnu], isExpired=false}
+00:42:04,793 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774724793, data=[annet, i4, 1449774724791, 43.005895, -71.013202, 99.0, GPS], isExpired=false}
+00:42:04,795 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449774724795, data=[annet, LAP, 1, 43.005895, -71.013202, {'type': 'Circle', 'radius': 2000, 'coordinates':[43.005895, -71.013202]}], isExpired=false}
+00:42:06,798 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774726798, data=[vishnu, xt890, 1449774726794, 43.005895, -71.013202, 99.0, GPS], isExpired=false}
+00:42:08,802 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774728802, data=[gobi, m8, 1449774728800, 40.922326, -72.637078, 99.0, GPS], isExpired=false}
+00:42:10,806 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774730806, data=[raveen, m2, 1449774730803, 40.922326, -72.637078, 99.0, GPS], isExpired=false}
+00:42:12,809 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774732809, data=[prasath, lumia, 1449774732807, 18.180103, -66.74947, 99.0, GPS], isExpired=false}
+00:42:14,812 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774734812, data=[annet, i4, 1449774734809, 18.363285, -67.18024, 99.0, GPS], isExpired=false}
+00:42:16,816 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774736815, data=[vishnu, xt890, 1449774736813, 18.448619, -67.13422, 99.0, GPS], isExpired=false}
+00:42:18,819 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774738819, data=[gobi, m8, 1449774738817, 18.498987, -67.13699, 99.0, GPS], isExpired=false}
+00:42:20,821 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774740821, data=[raveen, m2, 1449774740819, 18.465162, -67.141486, 99.0, GPS], isExpired=false}
+00:42:22,825 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774742824, data=[prasath, lumia, 1449774742822, 18.182151, -66.9588, 99.0, GPS], isExpired=false}
+00:42:24,827 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774744826, data=[annet, i4, 1449774744825, 18.256995, -66.104657, 99.0, GPS], isExpired=false}
+00:42:26,831 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774746831, data=[vishnu, xt890, 1449774746828, 18.142002, -66.273278, 99.0, GPS], isExpired=false}
+00:42:28,834 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774748834, data=[gobi, m8, 1449774748831, 18.288319, -67.13604, 99.0, GPS], isExpired=false}
+00:42:30,838 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774750837, data=[raveen, m2, 1449774750835, 18.279531, -66.80217, 99.0, GPS], isExpired=false}
+00:42:32,840 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774752840, data=[prasath, lumia, 1449774752838, 18.449732, -66.69879, 99.0, GPS], isExpired=false}
+00:42:34,843 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774754843, data=[annet, i4, 1449774754840, 18.458093, -66.732732, 99.0, GPS], isExpired=false}
+00:42:36,845 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774756845, data=[vishnu, xt890, 1449774756843, 18.429675, -66.674506, 99.0, GPS], isExpired=false}
+00:42:38,848 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774758848, data=[gobi, m8, 1449774758846, 17.96977, -66.061459, 99.0, GPS], isExpired=false}
+00:42:40,851 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774760851, data=[raveen, m2, 1449774760849, 18.426748, -66.67669, 99.0, GPS], isExpired=false}
+00:42:42,854 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774762854, data=[prasath, lumia, 1449774762852, 18.455499, -66.55575, 99.0, GPS], isExpired=false}
+00:42:44,858 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774764858, data=[annet, i4, 1449774764856, 18.185463, -66.305827, 99.0, GPS], isExpired=false}
+00:42:46,861 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774766861, data=[vishnu, xt890, 1449774766859, 18.003125, -67.16745, 99.0, GPS], isExpired=false}
+00:42:48,863 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774768863, data=[gobi, m8, 1449774768861, 18.08643, -67.15222, 99.0, GPS], isExpired=false}
+00:42:50,866 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774770866, data=[raveen, m2, 1449774770863, 18.055399, -66.72602, 99.0, GPS], isExpired=false}
+00:42:52,870 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774772870, data=[prasath, lumia, 1449774772866, 18.232109, -66.039087, 99.0, GPS], isExpired=false}
+00:42:54,871 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449774774871, data=[annet, i4, 1449774774870, 18.235003, -66.037318, 99.0, GPS], isExpired=false}
+09:18:52,221 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu"
+        },
+        "payloadData": {
+            "friend_id": "gobi"
+        }
+    }
+}
+09:18:52,257 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, Event Stream : FriendsStream:1.0.0, after processing 
+Event{timestamp=1449805732257, data=[vishnu, gobi], isExpired=false}
+09:18:52,257 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449805732257, data=[vishnu, gobi], isExpired=false}
+09:19:08,301 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : ShopItemReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu"
+        },
+        "payloadData": {
+            "item": "RAM",
+            "qty": "1",
+            "lat": 1.0,
+            "lon": 1.0,
+            "geoJSONGeometryFence": "data1"
+        }
+    }
+}
+09:19:08,302 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : ShopItemReceiver, Event Stream : ShoppingStream:1.0.0, after processing 
+Event{timestamp=1449805748302, data=[vishnu, RAM, 1, 1.0, 1.0, data1], isExpired=false}
+09:19:08,302 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449805748302, data=[vishnu, RAM, 1, 1.0, 1.0, data1], isExpired=false}
+09:19:13,697 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "gobi",
+            "device_id": "m8"
+        },
+        "payloadData": {
+            "timestamp": 645565,
+            "lat": 1.0,
+            "lon": 1.0,
+            "accuracy": 8.9,
+            "source": "GPS"
+        }
+    }
+}
+09:19:13,698 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, Event Stream : CurrentLocationStream:1.0.0, after processing 
+Event{timestamp=1449805753698, data=[gobi, m8, 645565, 1.0, 1.0, 8.9, GPS], isExpired=false}
+09:19:13,698 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449805753698, data=[gobi, m8, 645565, 1.0, 1.0, 8.9, GPS], isExpired=false}
+09:27:16,490 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu"
+        },
+        "payloadData": {
+            "friend_id": "gobi"
+        }
+    }
+}
+09:27:16,490 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, Event Stream : FriendsStream:1.0.0, after processing 
+Event{timestamp=1449806236490, data=[vishnu, gobi], isExpired=false}
+09:27:16,490 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449806236490, data=[vishnu, gobi], isExpired=false}
+09:27:20,577 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : ShopItemReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu"
+        },
+        "payloadData": {
+            "item": "RAM",
+            "qty": "1",
+            "lat": 1.0,
+            "lon": 1.0,
+            "geoJSONGeometryFence": "data1"
+        }
+    }
+}
+09:27:20,578 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : ShopItemReceiver, Event Stream : ShoppingStream:1.0.0, after processing 
+Event{timestamp=1449806240578, data=[vishnu, RAM, 1, 1.0, 1.0, data1], isExpired=false}
+09:27:20,578 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449806240578, data=[vishnu, RAM, 1, 1.0, 1.0, data1], isExpired=false}
+09:27:23,235 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "gobi",
+            "device_id": "m8"
+        },
+        "payloadData": {
+            "timestamp": 645565,
+            "lat": 1.0,
+            "lon": 1.0,
+            "accuracy": 8.9,
+            "source": "GPS"
+        }
+    }
+}
+09:27:23,236 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, Event Stream : CurrentLocationStream:1.0.0, after processing 
+Event{timestamp=1449806243235, data=[gobi, m8, 645565, 1.0, 1.0, 8.9, GPS], isExpired=false}
+09:27:23,236 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449806243235, data=[gobi, m8, 645565, 1.0, 1.0, 8.9, GPS], isExpired=false}
+09:27:23,236 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1449806243235, data=[vishnu, RAM, 1, gobi, 1.0, 1.0, data1], isExpired=false}]
+09:27:23,236 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1449806243235, data=[vishnu, RAM, 1, gobi, 1.0, 1.0, data1], isExpired=false}
+09:27:23,237 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:1.0,
+lon:1.0,
+geoJSONGeometryFence:data1
+09:40:42,319 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : ShopItemReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu"
+        },
+        "payloadData": {
+            "item": "PC",
+            "qty": "1",
+            "lat": 0.0,
+            "lon": 1.0,
+            "geoJSONGeometryFence": "data1"
+        }
+    }
+}
+09:40:42,320 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : ShopItemReceiver, Event Stream : ShoppingStream:1.0.0, after processing 
+Event{timestamp=1449807042320, data=[vishnu, PC, 1, 0.0, 1.0, data1], isExpired=false}
+09:40:42,320 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449807042320, data=[vishnu, PC, 1, 0.0, 1.0, data1], isExpired=false}
+09:41:02,150 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu"
+        },
+        "payloadData": {
+            "friend_id": "raveen"
+        }
+    }
+}
+09:41:02,150 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, Event Stream : FriendsStream:1.0.0, after processing 
+Event{timestamp=1449807062150, data=[vishnu, raveen], isExpired=false}
+09:41:02,150 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449807062150, data=[vishnu, raveen], isExpired=false}
+09:41:12,714 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "annet",
+            "device_id": "m8"
+        },
+        "payloadData": {
+            "timestamp": 645565,
+            "lat": 0.0,
+            "lon": 1.0,
+            "accuracy": 8.9,
+            "source": "GPS"
+        }
+    }
+}
+09:41:12,714 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, Event Stream : CurrentLocationStream:1.0.0, after processing 
+Event{timestamp=1449807072714, data=[annet, m8, 645565, 0.0, 1.0, 8.9, GPS], isExpired=false}
+09:41:12,714 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449807072714, data=[annet, m8, 645565, 0.0, 1.0, 8.9, GPS], isExpired=false}
+09:41:23,482 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "raveen",
+            "device_id": "m8"
+        },
+        "payloadData": {
+            "timestamp": 645565,
+            "lat": 0.0,
+            "lon": 1.0,
+            "accuracy": 8.9,
+            "source": "GPS"
+        }
+    }
+}
+09:41:23,483 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, Event Stream : CurrentLocationStream:1.0.0, after processing 
+Event{timestamp=1449807083483, data=[raveen, m8, 645565, 0.0, 1.0, 8.9, GPS], isExpired=false}
+09:41:23,483 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449807083483, data=[raveen, m8, 645565, 0.0, 1.0, 8.9, GPS], isExpired=false}
+09:41:23,483 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1449807083483, data=[vishnu, PC, 1, raveen, 0.0, 1.0, data1], isExpired=false}]
+09:41:23,484 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1449807083483, data=[vishnu, PC, 1, raveen, 0.0, 1.0, data1], isExpired=false}
+09:41:23,484 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:PC,
+qty:1,
+friend_id:raveen,
+lat:0.0,
+lon:1.0,
+geoJSONGeometryFence:data1
+09:42:09,474 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu"
+        },
+        "payloadData": {
+            "friend_id": "annet"
+        }
+    }
+}
+09:42:09,474 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, Event Stream : FriendsStream:1.0.0, after processing 
+Event{timestamp=1449807129474, data=[vishnu, annet], isExpired=false}
+09:42:09,474 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449807129474, data=[vishnu, annet], isExpired=false}
+09:42:25,818 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : ShopItemReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu"
+        },
+        "payloadData": {
+            "item": "PC",
+            "qty": "1",
+            "lat": 0.0,
+            "lon": 1.0,
+            "geoJSONGeometryFence": "data1"
+        }
+    }
+}
+09:42:25,819 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : ShopItemReceiver, Event Stream : ShoppingStream:1.0.0, after processing 
+Event{timestamp=1449807145819, data=[vishnu, PC, 1, 0.0, 1.0, data1], isExpired=false}
+09:42:25,819 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449807145819, data=[vishnu, PC, 1, 0.0, 1.0, data1], isExpired=false}
+09:42:32,419 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "raveen",
+            "device_id": "m8"
+        },
+        "payloadData": {
+            "timestamp": 645565,
+            "lat": 0.0,
+            "lon": 1.0,
+            "accuracy": 8.9,
+            "source": "GPS"
+        }
+    }
+}
+09:42:32,419 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, Event Stream : CurrentLocationStream:1.0.0, after processing 
+Event{timestamp=1449807152419, data=[raveen, m8, 645565, 0.0, 1.0, 8.9, GPS], isExpired=false}
+09:42:32,419 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449807152419, data=[raveen, m8, 645565, 0.0, 1.0, 8.9, GPS], isExpired=false}
+09:42:36,695 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu"
+        },
+        "payloadData": {
+            "friend_id": "annet"
+        }
+    }
+}
+09:42:36,695 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, Event Stream : FriendsStream:1.0.0, after processing 
+Event{timestamp=1449807156695, data=[vishnu, annet], isExpired=false}
+09:42:36,695 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449807156695, data=[vishnu, annet], isExpired=false}
+09:42:46,572 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : ShopItemReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu"
+        },
+        "payloadData": {
+            "item": "RAM",
+            "qty": "1",
+            "lat": 1.0,
+            "lon": 1.0,
+            "geoJSONGeometryFence": "data1"
+        }
+    }
+}
+09:42:46,573 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : ShopItemReceiver, Event Stream : ShoppingStream:1.0.0, after processing 
+Event{timestamp=1449807166573, data=[vishnu, RAM, 1, 1.0, 1.0, data1], isExpired=false}
+09:42:46,573 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449807166573, data=[vishnu, RAM, 1, 1.0, 1.0, data1], isExpired=false}
+09:42:50,949 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu"
+        },
+        "payloadData": {
+            "friend_id": "gobi"
+        }
+    }
+}
+09:42:50,949 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, Event Stream : FriendsStream:1.0.0, after processing 
+Event{timestamp=1449807170949, data=[vishnu, gobi], isExpired=false}
+09:42:50,949 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449807170949, data=[vishnu, gobi], isExpired=false}
+09:42:53,807 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "gobi",
+            "device_id": "m8"
+        },
+        "payloadData": {
+            "timestamp": 645565,
+            "lat": 1.0,
+            "lon": 1.0,
+            "accuracy": 8.9,
+            "source": "GPS"
+        }
+    }
+}
+09:42:53,808 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, Event Stream : CurrentLocationStream:1.0.0, after processing 
+Event{timestamp=1449807173808, data=[gobi, m8, 645565, 1.0, 1.0, 8.9, GPS], isExpired=false}
+09:42:53,808 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449807173808, data=[gobi, m8, 645565, 1.0, 1.0, 8.9, GPS], isExpired=false}
+09:43:59,910 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1449807129474, data=[vishnu, PC, 1, annet, 0.0, 1.0, data1], isExpired=false}]
+09:43:59,910 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1449807129474, data=[vishnu, PC, 1, annet, 0.0, 1.0, data1], isExpired=false}
+09:43:59,910 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:PC,
+qty:1,
+friend_id:annet,
+lat:0.0,
+lon:1.0,
+geoJSONGeometryFence:data1
+09:43:59,917 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1449807145819, data=[vishnu, PC, 1, annet, 0.0, 1.0, data1], isExpired=false}]
+09:43:59,917 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1449807145819, data=[vishnu, PC, 1, annet, 0.0, 1.0, data1], isExpired=false}
+09:43:59,917 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:PC,
+qty:1,
+friend_id:annet,
+lat:0.0,
+lon:1.0,
+geoJSONGeometryFence:data1
+09:43:59,925 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1449807145819, data=[vishnu, PC, 1, raveen, 0.0, 1.0, data1], isExpired=false}]
+09:43:59,925 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1449807145819, data=[vishnu, PC, 1, raveen, 0.0, 1.0, data1], isExpired=false}
+09:43:59,925 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:PC,
+qty:1,
+friend_id:raveen,
+lat:0.0,
+lon:1.0,
+geoJSONGeometryFence:data1
+09:43:59,933 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1449807152419, data=[vishnu, PC, 1, raveen, 0.0, 1.0, data1], isExpired=false}]
+09:43:59,933 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1449807152419, data=[vishnu, PC, 1, raveen, 0.0, 1.0, data1], isExpired=false}
+09:43:59,933 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:PC,
+qty:1,
+friend_id:raveen,
+lat:0.0,
+lon:1.0,
+geoJSONGeometryFence:data1
+09:43:59,940 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1449807152419, data=[vishnu, PC, 1, raveen, 0.0, 1.0, data1], isExpired=false}]
+09:43:59,940 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1449807152419, data=[vishnu, PC, 1, raveen, 0.0, 1.0, data1], isExpired=false}
+09:43:59,940 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:PC,
+qty:1,
+friend_id:raveen,
+lat:0.0,
+lon:1.0,
+geoJSONGeometryFence:data1
+09:43:59,948 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1449807156695, data=[vishnu, PC, 1, annet, 0.0, 1.0, data1], isExpired=false}, Event{timestamp=1449807156695, data=[vishnu, PC, 1, annet, 0.0, 1.0, data1], isExpired=false}]
+09:43:59,948 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1449807156695, data=[vishnu, PC, 1, annet, 0.0, 1.0, data1], isExpired=false}
+09:43:59,948 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:PC,
+qty:1,
+friend_id:annet,
+lat:0.0,
+lon:1.0,
+geoJSONGeometryFence:data1
+09:43:59,956 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1449807156695, data=[vishnu, PC, 1, annet, 0.0, 1.0, data1], isExpired=false}
+09:43:59,956 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:PC,
+qty:1,
+friend_id:annet,
+lat:0.0,
+lon:1.0,
+geoJSONGeometryFence:data1
+09:43:59,964 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1449807170949, data=[vishnu, RAM, 1, gobi, 1.0, 1.0, data1], isExpired=false}]
+09:43:59,964 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1449807170949, data=[vishnu, RAM, 1, gobi, 1.0, 1.0, data1], isExpired=false}
+09:43:59,964 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:1.0,
+lon:1.0,
+geoJSONGeometryFence:data1
+09:43:59,972 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1449807173808, data=[vishnu, RAM, 1, gobi, 1.0, 1.0, data1], isExpired=false}, Event{timestamp=1449807173808, data=[vishnu, RAM, 1, gobi, 1.0, 1.0, data1], isExpired=false}]
+09:43:59,972 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1449807173808, data=[vishnu, RAM, 1, gobi, 1.0, 1.0, data1], isExpired=false}
+09:43:59,972 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:1.0,
+lon:1.0,
+geoJSONGeometryFence:data1
+09:43:59,980 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1449807173808, data=[vishnu, RAM, 1, gobi, 1.0, 1.0, data1], isExpired=false}
+09:43:59,980 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:1.0,
+lon:1.0,
+geoJSONGeometryFence:data1
+09:43:59,987 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1449807173808, data=[vishnu, RAM, 1, gobi, 1.0, 1.0, data1], isExpired=false}, Event{timestamp=1449807173808, data=[vishnu, RAM, 1, gobi, 1.0, 1.0, data1], isExpired=false}]
+09:43:59,987 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1449807173808, data=[vishnu, RAM, 1, gobi, 1.0, 1.0, data1], isExpired=false}
+09:43:59,987 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:1.0,
+lon:1.0,
+geoJSONGeometryFence:data1
+09:43:59,996 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1449807173808, data=[vishnu, RAM, 1, gobi, 1.0, 1.0, data1], isExpired=false}
+09:43:59,996 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:RAM,
+qty:1,
+friend_id:gobi,
+lat:1.0,
+lon:1.0,
+geoJSONGeometryFence:data1
+10:03:03,026 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : ShopItemReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu"
+        },
+        "payloadData": {
+            "item": "PC",
+            "qty": "1",
+            "lat": 79.899417,
+            "lon": 6.795467,
+            "geoJSONGeometryFence": "data1"
+        }
+    }
+}
+10:03:03,049 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : ShopItemReceiver, Event Stream : ShoppingStream:1.0.0, after processing 
+Event{timestamp=1449808383049, data=[vishnu, PC, 1, 79.899417, 6.795467, data1], isExpired=false}
+10:03:03,049 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449808383049, data=[vishnu, PC, 1, 79.899417, 6.795467, data1], isExpired=false}
+10:03:43,029 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "gobi",
+            "device_id": "m8"
+        },
+        "payloadData": {
+            "timestamp": 645565,
+            "lat": 79.899728,
+            "lon": 6.797358,
+            "accuracy": 8.9,
+            "source": "GPS"
+        }
+    }
+}
+10:03:43,030 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, Event Stream : CurrentLocationStream:1.0.0, after processing 
+Event{timestamp=1449808423030, data=[gobi, m8, 645565, 79.899728, 6.797358, 8.9, GPS], isExpired=false}
+10:03:43,030 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449808423030, data=[gobi, m8, 645565, 79.899728, 6.797358, 8.9, GPS], isExpired=false}
+10:03:53,192 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu"
+        },
+        "payloadData": {
+            "friend_id": "gobi"
+        }
+    }
+}
+10:03:53,192 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, Event Stream : FriendsStream:1.0.0, after processing 
+Event{timestamp=1449808433192, data=[vishnu, gobi], isExpired=false}
+10:03:53,192 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449808433192, data=[vishnu, gobi], isExpired=false}
+10:03:53,194 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1449808433192, data=[vishnu, PC, 1, gobi, 79.899417, 6.795467, data1], isExpired=false}]
+10:03:53,195 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1449808433192, data=[vishnu, PC, 1, gobi, 79.899417, 6.795467, data1], isExpired=false}
+10:03:53,195 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:PC,
+qty:1,
+friend_id:gobi,
+lat:79.899417,
+lon:6.795467,
+geoJSONGeometryFence:data1
+10:04:52,955 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu"
+        },
+        "payloadData": {
+            "friend_id": "annet"
+        }
+    }
+}
+10:04:52,955 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, Event Stream : FriendsStream:1.0.0, after processing 
+Event{timestamp=1449808492955, data=[vishnu, annet], isExpired=false}
+10:04:52,955 [-] [pool-24-thread-4]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449808492955, data=[vishnu, annet], isExpired=false}
+10:05:30,653 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "annet",
+            "device_id": "m8"
+        },
+        "payloadData": {
+            "timestamp": 645565,
+            "lat": 79.900790,
+            "lon": 6.793350,
+            "accuracy": 8.9,
+            "source": "GPS"
+        }
+    }
+}
+10:05:30,654 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, Event Stream : CurrentLocationStream:1.0.0, after processing 
+Event{timestamp=1449808530653, data=[annet, m8, 645565, 79.90079, 6.79335, 8.9, GPS], isExpired=false}
+10:05:30,654 [-] [pool-24-thread-5]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449808530653, data=[annet, m8, 645565, 79.90079, 6.79335, 8.9, GPS], isExpired=false}
+10:05:30,654 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1449808530653, data=[vishnu, PC, 1, annet, 79.899417, 6.795467, data1], isExpired=false}]
+10:05:30,654 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1449808530653, data=[vishnu, PC, 1, annet, 79.899417, 6.795467, data1], isExpired=false}
+10:05:30,654 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:PC,
+qty:1,
+friend_id:annet,
+lat:79.899417,
+lon:6.795467,
+geoJSONGeometryFence:data1
+10:07:43,905 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu"
+        },
+        "payloadData": {
+            "friend_id": "raveen"
+        }
+    }
+}
+10:07:43,905 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, Event Stream : FriendsStream:1.0.0, after processing 
+Event{timestamp=1449808663905, data=[vishnu, raveen], isExpired=false}
+10:07:43,905 [-] [pool-24-thread-6]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449808663905, data=[vishnu, raveen], isExpired=false}
+10:08:47,928 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "raveen",
+            "device_id": "m8"
+        },
+        "payloadData": {
+            "timestamp": 645565,
+            "lat": 79.890680,
+            "lon": 6.784705,
+            "accuracy": 8.9,
+            "source": "GPS"
+        }
+    }
+}
+10:08:47,929 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, Event Stream : CurrentLocationStream:1.0.0, after processing 
+Event{timestamp=1449808727929, data=[raveen, m8, 645565, 79.89068, 6.784705, 8.9, GPS], isExpired=false}
+10:08:47,929 [-] [pool-24-thread-7]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449808727929, data=[raveen, m8, 645565, 79.89068, 6.784705, 8.9, GPS], isExpired=false}
+10:08:47,930 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1449808727929, data=[vishnu, PC, 1, raveen, 79.899417, 6.795467, data1], isExpired=false}]
+10:08:47,930 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1449808727929, data=[vishnu, PC, 1, raveen, 79.899417, 6.795467, data1], isExpired=false}
+10:08:47,930 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:PC,
+qty:1,
+friend_id:raveen,
+lat:79.899417,
+lon:6.795467,
+geoJSONGeometryFence:data1
+10:09:23,613 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu"
+        },
+        "payloadData": {
+            "friend_id": "prasath"
+        }
+    }
+}
+10:09:23,613 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : FriendsReceiver, Event Stream : FriendsStream:1.0.0, after processing 
+Event{timestamp=1449808763613, data=[vishnu, prasath], isExpired=false}
+10:09:23,613 [-] [pool-24-thread-8]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : FriendsStream:1.0.0 (FriendsStream), before processing 
+Event{timestamp=1449808763613, data=[vishnu, prasath], isExpired=false}
+10:09:43,271 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : ShopItemReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "vishnu"
+        },
+        "payloadData": {
+            "item": "LAP",
+            "qty": "1",
+            "lon": 79.899417,
+            "lat": 6.795467,
+            "geoJSONGeometryFence": "data1"
+        }
+    }
+}
+10:09:43,272 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : ShopItemReceiver, Event Stream : ShoppingStream:1.0.0, after processing 
+Event{timestamp=1449808783272, data=[vishnu, LAP, 1, 6.795467, 79.899417, data1], isExpired=false}
+10:09:43,272 [-] [pool-24-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingStream:1.0.0 (ShoppingStream), before processing 
+Event{timestamp=1449808783272, data=[vishnu, LAP, 1, 6.795467, 79.899417, data1], isExpired=false}
+10:10:27,524 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "prasath",
+            "device_id": "m8"
+        },
+        "payloadData": {
+            "timestamp": 645565,
+            "lon": 79.890680,
+            "lat": 6.784705,
+            "accuracy": 8.9,
+            "source": "GPS"
+        }
+    }
+}
+10:10:27,524 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, Event Stream : CurrentLocationStream:1.0.0, after processing 
+Event{timestamp=1449808827524, data=[prasath, m8, 645565, 6.784705, 79.89068, 8.9, GPS], isExpired=false}
+10:10:27,524 [-] [pool-24-thread-2]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449808827524, data=[prasath, m8, 645565, 6.784705, 79.89068, 8.9, GPS], isExpired=false}
+10:12:08,343 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, before processing 
+{
+    "event": {
+        "metaData": {
+            "user_id": "prasath",
+            "device_id": "m8"
+        },
+        "payloadData": {
+            "timestamp": 645565,
+            "lon": 79.898190,
+            "lat": 6.793686,
+            "accuracy": 8.9,
+            "source": "GPS"
+        }
+    }
+}
+10:12:08,343 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Receiver : LocationReceiver, Event Stream : CurrentLocationStream:1.0.0, after processing 
+Event{timestamp=1449808928343, data=[prasath, m8, 645565, 6.793686, 79.89819, 8.9, GPS], isExpired=false}
+10:12:08,344 [-] [pool-24-thread-3]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : CurrentLocationStream:1.0.0 (CurrentLocationStream), before processing 
+Event{timestamp=1449808928343, data=[prasath, m8, 645565, 6.793686, 79.89819, 8.9, GPS], isExpired=false}
+10:12:08,344 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Processor : SharedShoppingPlan, Event Stream : ShoppingOutStream:1.0.0 (SharedShoppingPlan), after processing 
+[Event{timestamp=1449808928343, data=[vishnu, LAP, 1, prasath, 6.795467, 79.899417, data1], isExpired=false}]
+10:12:08,344 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, Event Stream : ShoppingOutStream:1.0.0, before processing 
+Event{timestamp=1449808928343, data=[vishnu, LAP, 1, prasath, 6.795467, 79.899417, data1], isExpired=false}
+10:12:08,344 [-] [Siddhi-SharedShoppingPlan-executor-thread-1]  INFO EVENT_TRACE_LOGGER TenantId : -1234, Event Publisher : ShoppingOutStream, after processing 
+meta_user_id:vishnu,
+item:LAP,
+qty:1,
+friend_id:prasath,
+lat:6.795467,
+lon:79.899417,
+geoJSONGeometryFence:data1

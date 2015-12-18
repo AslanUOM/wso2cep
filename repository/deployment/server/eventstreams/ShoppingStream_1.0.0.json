@@ -1,0 +1,34 @@
+{
+  "name": "ShoppingStream",
+  "version": "1.0.0",
+  "nickName": "",
+  "description": "Shopping items with location and quantity",
+  "metaData": [
+    {
+      "name": "user_id",
+      "type": "STRING"
+    }
+  ],
+  "payloadData": [
+    {
+      "name": "item",
+      "type": "STRING"
+    },
+    {
+      "name": "qty",
+      "type": "STRING"
+    },
+    {
+      "name": "lat",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "lon",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "source",
+      "type": "STRING"
+    }
+  ]
+}

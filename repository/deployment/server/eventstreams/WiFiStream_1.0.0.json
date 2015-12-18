@@ -1,0 +1,34 @@
+{
+  "name": "WiFiStream",
+  "version": "1.0.0",
+  "nickName": "",
+  "description": "Stream of nearby WiFi BSSIDs from user device",
+  "metaData": [
+    {
+      "name": "user_id",
+      "type": "STRING"
+    },
+    {
+      "name": "device_id",
+      "type": "STRING"
+    },
+    {
+      "name": "timestamp",
+      "type": "LONG"
+    }
+  ],
+  "payloadData": [
+    {
+      "name": "value",
+      "type": "STRING"
+    },
+    {
+      "name": "source",
+      "type": "STRING"
+    },
+    {
+      "name": "strength",
+      "type": "FLOAT"
+    }
+  ]
+}
